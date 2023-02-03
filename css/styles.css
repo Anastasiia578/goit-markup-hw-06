@@ -555,6 +555,7 @@ fill:#FFFFFF;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
+
 .btn-form{
     background-color: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -576,4 +577,7 @@ fill:#FFFFFF;
 .btn-form:is(:hover,:focus){
     background-color: var(--hover-focus-color);
     border-color:var(--hover-focus-color);
+}
+.modal-name:is(:hover, :focus){
+    border-color: rgba(77, 90, 229, 1);
 }

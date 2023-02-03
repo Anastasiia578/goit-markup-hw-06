@@ -551,7 +551,7 @@ fill:#FFFFFF;
 .modal-name{
     width: 100%;
     height: 40px;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
@@ -580,4 +580,10 @@ fill:#FFFFFF;
 }
 .modal-name:is(:hover, :focus){
     border-color: rgba(77, 90, 229, 1);
+}
+
+.lable-name{
+    color: #8E8F99;
+    font-size: 12px;
+    letter-spacing: 0.1em;
 }

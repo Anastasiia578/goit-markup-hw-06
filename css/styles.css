@@ -546,7 +546,7 @@ fill:#FFFFFF;
     font-weight: 500;
     text-align: center;
     padding-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 .modal-name{
     width: 100%;
@@ -554,6 +554,8 @@ fill:#FFFFFF;
     margin-bottom: 8px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    outline: none;
+    padding-left: 38px;
 }
 
 .btn-form{
@@ -578,12 +580,29 @@ fill:#FFFFFF;
     background-color: var(--hover-focus-color);
     border-color:var(--hover-focus-color);
 }
-.modal-name:is(:hover, :focus){
+.modal-name:focus{
     border-color: rgba(77, 90, 229, 1);
 }
-
+.modal-name:focus+.icon-input{
+    fill:#4D5AE5;
+}
 .lable-name{
     color: #8E8F99;
     font-size: 12px;
     letter-spacing: 0.1em;
+    display: block;
+    margin-bottom: 8px;
+}
+.modal-input{
+    position: relative;
+}
+.icon-input{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transform: translateY(-10%);
+}
+.modal-textare{
+    width: 100%;
+    height: 137px;
 }

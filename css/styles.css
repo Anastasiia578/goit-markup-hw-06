@@ -613,22 +613,24 @@ fill:#FFFFFF;
 .modal-textare:focus{
     border-color:rgba(77, 90, 229, 1) ;
 }
-.checkbox{
+.checkbox:checked +.checkbox-txt::before{
+    background-color: var(--btn-active-colore);
+    border: none;
+}
+.checkbox-txt::before{
+    content: "";
     outline: none;
     width: 16px;
     height: 16px;
     border: 1.25px solid #2E2F42;
     border-radius: 2px;
-    position: relative;
+    margin-right: 8px;
 }
-
 .checkbox-txt{
     font-size: 12px;
     letter-spacing: 0.04em;
     color:#757575;
-    margin-left: 8px;
-    position: absolute;
-    
+    display: flex;
 }
 .txt{
     color: #4D5AE5;

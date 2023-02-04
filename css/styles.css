@@ -613,10 +613,22 @@ fill:#FFFFFF;
 .modal-textare:focus{
     border-color:rgba(77, 90, 229, 1) ;
 }
+.checkbox{
+    outline: none;
+    width: 16px;
+    height: 16px;
+    border: 1.25px solid #2E2F42;
+    border-radius: 2px;
+}
+.checkbox:focus{
+    border-color: #404BBF;
+}
 .checkbox-txt{
     font-size: 12px;
     letter-spacing: 0.04em;
     color:#757575;
+    display: inline-block;
+    margin-left: 8px;
 }
 .txt{
     color: #4D5AE5;

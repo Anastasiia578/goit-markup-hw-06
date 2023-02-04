@@ -199,9 +199,18 @@
                     <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg></a></li>
             </ul></div>
+    <div class="footer-subs">
+        <p class="sub-txt">Subscribe</p>
+        <form action class="footer-subscr">
+        <input type="email"class="emal-sub" id="mail"placeholder="E-mail" name="subscribe-ability" required>
+        <button type="submit" class="btn-subscr">Subscribe <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-send"></use>
+        </svg></button></form>
+    </div>
 </div>
+
         </footer>
-    <div class="backdrop  " data-modal>
+    <div class="backdrop  is-hidden" data-modal>
         <div class="modal ">
             <button  data-modal-close type="button" class="modal-close"><svg class="icon-clos"    width="8" height="8">
                 <use href="./images/icons.svg#icon-closeblack"></use>
@@ -229,7 +238,10 @@
                 <label for="Comment"><span class="lable-name"> Comment</span></label>
                 <div class="modal-input">
                     <textarea name="Text input" class="modal-textare" placeholder="Text input"  id="Comment"></textarea></div>
-                <div class="modal-check"><input type="checkbox" class="checkbox" id="policy" name="policy" value="true" required><label for="policy" class="checkbox-txt"><a href="">I accept the terms and conditions of the <span class="txt">Privacy Policy</a></span></lable></div>
+                <div class="modal-check "><input type="checkbox" class="checkbox visually-hiden" id="policy" name="policy" value="true" required><label for="policy" class="checkbox-txt"><span class="check-box"><svg class="icon-check" width="10" height="8" >
+                    <use href="./images/icons.svg#icon-Checked">
+                    </use>
+                </svg></span><a href="">I accept the terms and conditions of the <span class="txt">Privacy Policy</span></a></lable></div>
                     <button type="submit" class="btn-form">Send</button>
             </form>
         </div>

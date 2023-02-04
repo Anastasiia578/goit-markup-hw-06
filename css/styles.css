@@ -648,6 +648,10 @@ fill:#FFFFFF;
 .modal-input{
     position: relative;
 }
+.modal-input::placeholder{
+    color:#8E8F99;
+    font-size: 12px
+}
 .icon-input{
     position: absolute;
     left: 10px;
